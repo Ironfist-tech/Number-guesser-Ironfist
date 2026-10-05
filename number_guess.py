@@ -34,9 +34,6 @@ while True:
     else:
         print("(type hard or med or ez only)")
 
-
-    print(num)
-
     for x in range(1,6):
         try:
             answer = int(input("Guess The number!: "))
